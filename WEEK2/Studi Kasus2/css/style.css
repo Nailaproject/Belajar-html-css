@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background-color: #f5f7fa;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4a90e2, #6a11cb);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn {
+    background: white;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e3e8ef;
+}
+
+/* --- Features Section --- */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
